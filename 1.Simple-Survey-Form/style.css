@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+ margin-left: auto;
+ margin-right: auto;    
+ font-family :Raleway;
+}
+
+/*
+#3F3F3F
+background-image: linear-gradient(to bottom right, #33adff,#7300e6);
+#CAFAFE
+rgb(154, 216, 38)
+*/
+body{
+    background-color: #97AABD;
+}
+table{
+    border: 2px solid;
+    padding:10px;
+    border-radius: 10px;
+    border-color: #333;
+    background-color: #12343b;
+}
+
+/* Katılıyorum Katılmıyorum kısmını beyaz yapmak icin*/
+.mcTable th{
+    background-color:white;
+}
+
+td{
+    padding:5px 10px; /* ice dogru bosluk */
+}
+
+table tr td:nth-child(n+2){
+    text-align: center;
+}
+
+.mcTable tr:nth-child(odd){
+    background-color: white;
+}
+
+
+.mcTable tr:hover:nth-child(odd){
+    background-color: #B1A269;
+    transition: 0.5s;
+}
+
+.mcTable tr:nth-child(even){
+    background-color: rgb(154, 216, 38);
+}
+
+#text-area{
+    margin: 0px;
+    width: 419px;
+    height: 121px;
+}
+
+#footer{
+    background-color:rgb(167, 221, 181);
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width:fit-content;
+}
+
+#footer input,textarea,select{
+    padding: 3px 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgb(37, 36, 36); /* gölge eklemesi*/
+    text-decoration: none;
+}
+
+#footer input[type="button"]{
+    transition: 0.6s;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 1px;
+    padding:5px 0px 5px 0px;
+    font-family: Arial;
+}
+
+#footer input[type="button"]:hover{
+    transition: 0.6s;
+    background-color: #FBE8A6;
+    width: 48%;
+    border-radius: 10px;
+}
+

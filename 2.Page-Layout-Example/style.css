@@ -1,0 +1,248 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.page{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:#f7f3eb;
+}
+
+.header{
+    position: relative;
+    margin: 0 auto;
+    width: 1500px;
+    height:300px;
+    float: left;
+    background-color: #f7f3eb;
+}
+
+.header img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header input[type="text"]{
+    padding:3px 5px;
+    border-radius: 7px;
+    box-shadow:3px 3px 5px rgb(37,36,36);
+}
+
+.menu {
+    background-color:rgb(92, 87, 87);
+    border-radius: 18px;
+    margin: 50px auto;
+    width: 700px;
+    text-align:center;
+}
+
+.menu > ul {
+    display: inline-block;
+    background-color:#e5e1da;;
+    height: 40px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.menu > ul > li{
+    float: left;
+    width: 175px;
+    height: 45px;
+    line-height: 40px; /*nav icinde ki yazilar*/
+    position: relative;
+    font-size: 16px;
+}
+
+.menu > ul > li > a{
+    color: black;
+}
+
+.menu > ul >li:hover> a {
+    color:rgb(255, 255, 255);
+}
+
+.menu > ul >li:hover {
+    background:rgb(162, 163, 163);
+    border-radius: 8px;   
+}
+
+.menu ul.ul-tag{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+}
+
+.menu .ul-tag li{
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+.menu .ul-tag li a{
+    color: rgb(14, 13, 13);
+}
+
+.menu ul.ul-tag li:hover{
+    background:#d0ddf1;
+    font-weight: bold;
+}
+
+.menu ul li:hover .ul-tag li {
+    display: block;
+}
+
+.left-side{
+    width: 302px;
+    float: left;
+    margin-left: 50px;
+}
+
+.left-side-head{
+    background-color:white;
+    border-radius: 7px;
+    margin: 0px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border:1px solid black;
+}
+
+.left-side-body{
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+.left-side-ul{
+    background-color:white;
+    border-radius: 7px;
+    margin: 0px; 
+    width: 300px;
+    height: 600px;
+}
+
+.left-side-body div.relative{
+    position: relative;
+    width: 300px;
+    height: 150px;
+  /*  border:1px solid black;*/
+   border-bottom:1px solid black;
+}
+
+.left-side-body div.image-title{
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    width: 100px;
+}
+
+.left-side-body div.image-title a{
+    font-size : 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.mid-side{
+    background-color:white;
+    margin: 0px 50px 0px 50px;
+    width: 700px;
+    float: left;
+}
+
+.mid-side li {
+    border-radius: 7px;
+    height: 200px;
+    border:2px solid black;
+}
+
+.li-div{
+    position: relative;
+}
+
+.li-head{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.li-head p{
+    position: absolute;
+    width: 680px;
+    top: 110px;
+}
+
+.right-side{
+    width:300px;
+    float:left;
+}
+
+.right-side-head{
+    background-color:white;
+    border-radius: 7px;
+    border:1px solid black;
+    margin: 0px;
+    text-align: center;
+}
+
+.right-side-body{
+    background-color:white;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+.li-div1{
+    text-align: center;
+    font-weight: bold;
+    height: 85px;
+    border-bottom:1px solid black;
+}
+
+.footer{
+    width:825px;
+    margin-top:85px;
+    float: left;
+}
+
+.footer-body{
+    background:rgb(167, 221, 181);
+    padding:20px;
+    border-radius: 12px;
+    margin: 0px 70px 0px 50px;
+    height: 180px;
+}
+
+
+.footer input{
+    border:1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding:3px 5px 5px;
+}
+
+.footer input[type="button"]{
+    width: 220px;
+    margin-top: 50px;
+    border:1px solid;
+    border-radius: 10px;
+    padding: 0px 0px 0px 5px;
+    height:15%;
+}
+
+.footer input[type = "button"]:hover{
+    transition: 0.6s;
+    background-color: #FBE8A6;
+    width: 30%;
+    border-radius: 10px;
+}
+
